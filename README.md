@@ -1,26 +1,22 @@
-☕ Coove’s Coffee
+<section style="padding:20px; background:#fff; margin:20px; border-radius:10px;">
+  <h2>Contact Us</h2>
 
-A coffee brand website for showcasing coffee roasting and powder production.
+  <p>📞 Phone: +91 9876543210</p>
 
-🌐 Live Website
+  <p>
+    💬 WhatsApp: 
+    <a href="https://wa.me/919876543210">Chat Now</a>
+  </p>
 
-https://keerthu309.github.io/coove-s-coffee/
+  <p>
+    📸 Instagram: 
+    <a href="https://instagram.com/yourusername">Follow Us</a>
+  </p>
 
-📌 About
+  <p>📍 Location: Your City, India</p>
 
-This project is created to represent a coffee brand with a clean and simple design.
-
-🚀 Features
-
-- Simple homepage
-- Coffee product section
-- Clean layout
-
-🛠️ Technologies Used
-
-- HTML
-- CSS
-
-👤 Author
-
-- GitHub: https://github.com/keerthu309
+  <iframe 
+    src="https://maps.google.com/maps?q=india&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="100%" height="200" style="border-radius:10px;">
+  </iframe>
+</section>
