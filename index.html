@@ -1,57 +1,172 @@
-<h1 style="font-size:32px; letter-spacing:2px; transition:0.3s;"
-onmouseover="this.style.transform='scale(1.05)'"
-onmouseout="this.style.transform='scale(1)'">
-C<span style="color:#d4a373;">☕</span>ove Coffees
-</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coove Coffees</title>
 
-<div id="products" style="padding-top:120px; margin-top:-120px;">
-  <h2 style="text-align:center;">Our Coffee</h2>
+<style>
+body {
+  margin:0;
+  font-family:Arial;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header */
+.header {
+  background:#3e2723;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+/* Navbar */
+.navbar {
+  background:#6f4e37;
+  text-align:center;
+  padding:10px;
+}
+
+.navbar a {
+  color:white;
+  margin:10px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* Hero */
+.hero {
+  height:100vh;
+  background:url('https://images.unsplash.com/photo-1511920170033-f8396924c348') no-repeat center/cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  text-align:center;
+}
+
+/* Products */
+.products {
+  padding:60px 20px;
+  text-align:center;
+}
+
+.cards {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.card {
+  width:250px;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.2);
+  overflow:hidden;
+}
+
+.card img {
+  width:100%;
+  height:160px;
+  object-fit:cover;
+}
+
+.card div {
+  padding:15px;
+}
+
+/* Sections */
+.section {
+  padding:60px 20px;
+  text-align:center;
+  background:#f5f3ef;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Coove Coffees ☕</h1>
+  <p>Freshly Roasted • Pure Flavor</p>
 </div>
 
-<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:25px; padding:20px;">
-
-  <!-- Arabica -->
-  <div style="background:white; width:250px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.2); overflow:hidden;">
-    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" style="width:100%; height:160px; object-fit:cover;">
-    <div style="padding:15px; text-align:center;">
-      <h3>☕ Arabica Coffee</h3>
-      <p>Light | Medium | Dark Roast</p>
-      <p>Beans & Powder</p>
-      <p>250g | 500g | 1kg | 2kg</p>
-      <a href="https://wa.me/919148333686" 
-      style="display:block; margin-top:10px; background:#25D366; color:white; padding:10px; border-radius:20px; text-decoration:none;">
-      Order Now
-      </a>
-    </div>
-  </div>
-
-  <!-- Robusta -->
-  <div style="background:white; width:250px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.2); overflow:hidden;">
-    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" style="width:100%; height:160px; object-fit:cover;">
-    <div style="padding:15px; text-align:center;">
-      <h3>☕ Robusta Coffee</h3>
-      <p>Light | Medium | Dark Roast</p>
-      <p>Beans & Powder</p>
-      <p>250g | 500g | 1kg | 2kg</p>
-      <a href="https://wa.me/919148333686" 
-      style="display:block; margin-top:10px; background:#25D366; color:white; padding:10px; border-radius:20px; text-decoration:none;">
-      Order Now
-      </a>
-    </div>
-  </div>
-
-  <!-- Chicory -->
-  <div style="background:white; width:250px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.2); overflow:hidden;">
-    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" style="width:100%; height:160px; object-fit:cover;">
-    <div style="padding:15px; text-align:center;">
-      <h3>☕ Chicory Blend</h3>
-      <p>Coffee + Chicory Mix</p>
-      <p>250g | 500g | 1kg | 2kg</p>
-      <a href="https://wa.me/919148333686" 
-      style="display:block; margin-top:10px; background:#25D366; color:white; padding:10px; border-radius:20px; text-decoration:none;">
-      Order Now
-      </a>
-    </div>
-  </div>
-
+<!-- Navbar -->
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
 </div>
+
+<!-- Hero -->
+<div class="hero">
+  <div>
+    <h1>Experience the Perfect Brew ☕</h1>
+    <p>Premium coffee roasted with passion</p>
+  </div>
+</div>
+
+<!-- Products -->
+<div id="products" class="products">
+  <h2>Our Coffee</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+      <div>
+        <h3>Arabica Coffee</h3>
+        <p>Light | Medium | Dark</p>
+        <p>Beans & Powder</p>
+        <p>250g | 500g | 1kg | 2kg</p>
+        <a href="https://wa.me/919148333686">Order Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+      <div>
+        <h3>Robusta Coffee</h3>
+        <p>Light | Medium | Dark</p>
+        <p>Beans & Powder</p>
+        <p>250g | 500g | 1kg | 2kg</p>
+        <a href="https://wa.me/919148333686">Order Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096">
+      <div>
+        <h3>Chicory Blend</h3>
+        <p>Coffee + Chicory Mix</p>
+        <p>250g | 500g | 1kg | 2kg</p>
+        <a href="https://wa.me/919148333686">Order Now</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- About -->
+<div id="about" class="section">
+  <h2>About Us</h2>
+  <p>
+  Coove Coffees is proudly rooted in the heart of Chikkamagaluru.  
+  Started by a passionate village entrepreneur, we bring naturally roasted coffee with rich aroma and true flavor.
+  </p>
+</div>
+
+<!-- Contact -->
+<div id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>📍 Coove, Koppa, Chikkamagaluru</p>
+  <p>📞 9148333686</p>
+  <a href="https://wa.me/919148333686">Chat on WhatsApp</a>
+</div>
+
+</body>
+</html>
