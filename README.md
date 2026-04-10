@@ -1,1 +1,57 @@
-<h2>Our Products</h2>
+<h1 style="font-size:32px; letter-spacing:2px; transition:0.3s;"
+onmouseover="this.style.transform='scale(1.05)'"
+onmouseout="this.style.transform='scale(1)'">
+C<span style="color:#d4a373;">☕</span>ove Coffees
+</h1>
+
+<div id="products" style="padding-top:80px; margin-top:-80px;">
+<h2 style="text-align:center;">Our Coffee</h2>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:25px; padding:20px;">
+
+  <!-- Arabica -->
+  <div style="background:white; width:250px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.2); overflow:hidden;">
+    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" style="width:100%; height:160px; object-fit:cover;">
+    <div style="padding:15px; text-align:center;">
+      <h3>☕ Arabica Coffee</h3>
+      <p>Light | Medium | Dark Roast</p>
+      <p>Beans & Powder</p>
+      <p>250g | 500g | 1kg | 2kg</p>
+      <a href="https://wa.me/919148333686" 
+      style="display:block; margin-top:10px; background:#25D366; color:white; padding:10px; border-radius:20px; text-decoration:none;">
+      Order Now
+      </a>
+    </div>
+  </div>
+
+  <!-- Robusta -->
+  <div style="background:white; width:250px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.2); overflow:hidden;">
+    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" style="width:100%; height:160px; object-fit:cover;">
+    <div style="padding:15px; text-align:center;">
+      <h3>☕ Robusta Coffee</h3>
+      <p>Light | Medium | Dark Roast</p>
+      <p>Beans & Powder</p>
+      <p>250g | 500g | 1kg | 2kg</p>
+      <a href="https://wa.me/919148333686" 
+      style="display:block; margin-top:10px; background:#25D366; color:white; padding:10px; border-radius:20px; text-decoration:none;">
+      Order Now
+      </a>
+    </div>
+  </div>
+
+  <!-- Chicory -->
+  <div style="background:white; width:250px; border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.2); overflow:hidden;">
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" style="width:100%; height:160px; object-fit:cover;">
+    <div style="padding:15px; text-align:center;">
+      <h3>☕ Chicory Blend</h3>
+      <p>Coffee + Chicory Mix</p>
+      <p>250g | 500g | 1kg | 2kg</p>
+      <a href="https://wa.me/919148333686" 
+      style="display:block; margin-top:10px; background:#25D366; color:white; padding:10px; border-radius:20px; text-decoration:none;">
+      Order Now
+      </a>
+    </div>
+  </div>
+
+</div>
